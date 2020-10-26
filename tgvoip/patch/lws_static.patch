@@ -1,0 +1,8 @@
+--- /usr/local/lib/cmake/libwebsockets/LibwebsocketsConfig.cmake	2019-05-16 13:03:21.000000000 +0000
++++ /usr/local/lib/cmake/libwebsockets/LibwebsocketsConfig_static.cmake	2019-05-17 08:38:51.353703590 +0000
+@@ -13,5 +13,5 @@
+ include(${LWS_CMAKE_DIR}/LibwebsocketsTargets.cmake)
+ 
+ # IMPORTED targets from LibwebsocketsTargets.cmake
+-set(LIBWEBSOCKETS_LIBRARIES websockets websockets_shared)
++set(LIBWEBSOCKETS_LIBRARIES websockets)
